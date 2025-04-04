@@ -5,7 +5,7 @@ void setup(){
     pinMode(6, OUTPUT);
   }
   
-  //Esta função roda o código infinitamente em loop, e não necessita de parâmetros
+  //Esta função roda o código infinitamente em loop, e não retorna nenhum valor
   void loop() {
     digitalWrite(8, HIGH) ;
     digitalWrite(7, LOW);
