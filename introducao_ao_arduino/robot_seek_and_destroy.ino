@@ -149,4 +149,5 @@ void parar() {
   pararMotores();
 }
 
-RESULTADO: 
+//RESULTADO: Em um ciclo contínuo, o robô inicia uma busca girando e varrendo o ambiente com seu sensor ultrassônico para identificar o objeto mais próximo, memorizando a direção em que essa menor distância é detectada; em seguida, ele gira precisamente para essa direção e avança em linha reta por um breve período, simulando um ataque, para então reiniciar o processo de busca por um novo alvo.
+// EXPECTED RESULT: In a continuous cycle, the robot initiates a search by turning and scanning its surroundings with its ultrasonic sensor to identify the closest object, memorizing the direction where this shortest distance is detected; it then precisely turns towards that direction and moves straight forward for a short period, simulating an attack, before restarting the search process for a new target.
